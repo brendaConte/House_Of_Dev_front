@@ -1,8 +1,24 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# House Of Dev
 
-Currently, two official plugins are available:
+<p>Aplicación web de una inmobiliaria.</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Tecnologías utilizadas :
+<p>Javascript , React, Vite.js , Redux, Axios , Tailwind CSS .</p>
+
+#### Funcionalidades:
+
+- CRUD basico del manejo de un usuario.
+- Persistencia de sesión ante un cierre del browser o refresh.
+- Administrador : agregar/editar usuarios y administrador ; agregar/editar inmuebles ; ver lista de inmuebles.
+- Buscador de inmuebles a traves de filtros: nombre, categoria o descripción .
+- Vista de inmuebles y sus caracteristicas de forma individual.
+- Agendar visitas.
+- Listar inmuebles favoritos.
+
+
+#### Configuración:
+- Cloná este repositorio y corré en la terminal:
+```npm install```
+- Inicia el servidor con:
+```npm run dev```
