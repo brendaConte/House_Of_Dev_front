@@ -13,6 +13,7 @@ import CreateProperty from "./components/CreateProperty";
 import EditUser from "./components/User/EditUser";
 import EditProperty from "./components/Properties/EditProperty";
 import UserVisits from "./components/User/UserVisits";
+import Favorites from "./components/Favorites";
 
 function App() {
   const dispatch = useDispatch();
@@ -37,7 +38,8 @@ function App() {
             user.is_admin ? <CreateProperty /> : <div>No tienes permisos </div>
           }
         />
-        <Route path="/edit-property" element={<EditProperty/>} />
+        <Route path="/edit-property" element={<EditProperty />} />
+        <Route path="/favoritos" element={<Favorites />} />
         <Route path="/user-visits" element={<UserVisits />} />
         <Route path="/edit-user" element={<EditUser />} />
       </Routes>
